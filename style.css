@@ -1,0 +1,41 @@
+
+
+.navbar{
+    background-color: rgb(132, 205, 184);
+}
+
+h1{
+    font-family: 'Prompt', sans-serif;
+    color: #304346;
+}
+
+#firstSection{
+    background-color: rgb(132, 205, 184);
+    text-align: center;
+
+}
+
+#firstSection h1{
+    font-size: 4rem;
+
+}
+
+.boyImg{
+    width: 16rem;
+    clip-path: circle(60.0% at 30% 71%);
+}
+
+.girlImg{
+    clip-path: circle(46.9% at 95% 50%);
+    width: 20rem;
+
+}
+
+table {
+width: 100%;
+border: 1px solid rgba(86, 117, 113, 0.805);
+}
+
+table td {
+    border: 1px solid rgba(86, 117, 113, 0.805);
+    }
