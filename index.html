@@ -124,30 +124,52 @@
 
                             <label for="date" class="form-label">Gender</label>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="radioGender"
-                                   value="Male">
+                                <input class="form-check-input" type="radio" name="radioGender" value="Male">
                                 <label class="form-check-label" for="flexRadioDefault1">
                                     Male
                                 </label>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="radioGender"
-                                   value="Female">
+                                <input class="form-check-input" type="radio" name="radioGender" value="Female">
                                 <label class="form-check-label" for="flexRadioDefault2">
                                     Female
                                 </label>
                             </div>
+                            <!-- -------------------------------------------------- -->
+                            <label for="date" class="form-label">Major</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="radioMajor" value="Administration">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                    Administration
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="radioMajor" value="IT">
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                    IT
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="radioMajor" value="Science">
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                    Science
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="radioMajor" value="Art">
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                    Art
+                                </label>
+                            </div>
+
+                            <!-- ------------------------------------------------------ -->
 
                             <div class="mb-3 mt-3">
                                 <label for="number" class="form-label">Phon Number</label>
                                 <input type="text" class="form-control" id="number" name="number">
                             </div>
 
-                            <div class="mb-3 mt-3">
-                                <label for="date" class="form-label">Grade</label>
-                                <input type="number" class="form-control" id="grade" name="grade">
-                            </div>
-
+                            <input id="userimg" name="userimg" value="images\168728.png" placeholder="user image src"  type="text" id="category_0" required>
 
                             <button type="submit" class="btn btn-info btn-rounded mt-5">Submit</button>
                         </form>
@@ -157,7 +179,7 @@
             </div>
 
 
-            <table id="table">
+            <!-- <table id="table">
                 <thead>
                     <th>Name </th>
                     <th>Date</th>
@@ -166,13 +188,38 @@
                     <th>grade</th>
                 </thead>
                 <tbody>
-
                 </tbody>
-
-            </table>
-
+            </table> -->
 
         </section>
+
+
+        <section id="cardSection">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-4"></div>
+                    <div class="col-4">
+                        <div class="card" style="width: 100%;">
+                            <div class="card-body" id="card-body">
+                              
+                    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4"></div>
+                </div>
+            </div>
+
+        </section>
+
+        <div class="WelcomeContainer">
+            <h3>students informations</h3>
+        </div>
+
+        <div style="min-height: 25rem;">
+            <div id="student_card">
+            </div>
+        </div>
 
     </main>
 
